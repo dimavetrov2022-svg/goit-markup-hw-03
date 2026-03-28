@@ -62,7 +62,7 @@ img {
 .container {
   max-width: 1128px;
   margin: 0 auto;
-  max-width: 1440px;
+  padding: 0 15px;
 }
 
 /*----------- header -----------*/
@@ -90,6 +90,9 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+.contacts-link {
   padding: 24px 0;
 }
 
@@ -195,15 +198,14 @@ img {
 
 /*------------ features ------------*/
 
-/* .features-container {
-  padding: 120px;
-} */
+.features {
+  padding: 120px 0;
+}
 
 .features-list {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding: 120px;
 }
 
 .features-item {
@@ -243,7 +245,6 @@ img {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
-  padding-top: 120px;
 }
 
 .team-list {
@@ -256,13 +257,13 @@ img {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px;
+  padding: 0;
   max-width: 264px;
   max-height: 380px;
 }
 
 .person-card {
-  padding-bottom: 32px;
+  padding: 32px 16px;
 }
 
 .team-card-title {
@@ -273,7 +274,7 @@ img {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
-  margin-top: 32px;
+  margin-top: 0;
 }
 
 .team-card-text {
@@ -286,6 +287,10 @@ img {
 
 /*------------ portfolio ------------*/
 
+.portfolio {
+  padding: 120px 0;
+}
+
 .portfolio-subtitle {
   font-weight: 700;
   font-size: 36px;
@@ -294,7 +299,6 @@ img {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
-  padding-top: 120px;
 }
 
 .portfolio-list {
@@ -302,7 +306,6 @@ img {
   gap: 48px 24px;
   flex-wrap: wrap;
   background-color: #fff;
-  padding-bottom: 120px;
   justify-content: center;
 }
 
@@ -353,8 +356,9 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+  max-height: 112px;
 }
 
 .footer-container {
-  padding: 100px;
+  padding: 100px 0;
 }
